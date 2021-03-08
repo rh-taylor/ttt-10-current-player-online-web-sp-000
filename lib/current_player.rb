@@ -1,9 +1,8 @@
 #turn_count
 def turn_count(board)
   counter = 0
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  board.each do |turn|
-    if "X" || "O"
+  board.each do |spaces|
+    if spaces == "X" || spaces == "O"
       counter += 1
   display counter    
     end
@@ -11,3 +10,12 @@ end
 
 
 
+def turn_count(board)
+   counter = 0
+   board.each do |spaces|
+      if spaces == "X" || spaces == "O"
+         counter += 1
+      end
+   end
+   counter
+end
