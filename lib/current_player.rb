@@ -12,5 +12,8 @@ end
 
 #current_player
 def current_player(board)
-  
+  if turn_count(board) == 4 % 2
+    put "X"
+  else turn_count(board) == 5 % 2
+    put "O"
 end
