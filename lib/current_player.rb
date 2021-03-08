@@ -16,4 +16,5 @@ def current_player(board)
     put "X"
   else turn_count(board) == 5 % 2
     put "O"
+  end
 end
