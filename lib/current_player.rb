@@ -11,3 +11,5 @@ end
 
 
 #current_player
+def current_player
+end
